@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+
+   
+</head>
+<body>
+	<div class="box">
+        <div class="top">
+            <span class="iconfont icon-xia zjt fl"></span>
+            <p class="top_p1">Woman,Dresses</p>
+            <span class="iconfont icon-gouwuche1 gwc fr
+"></span>
+           <div class="anniu">
+            <button class="btn1 fl"><a href="#">ADD TO WISHLIST</a></button>
+            <button class="btn2 fl"><a href="#">ADD TO WISHLIST</a></button>
+           </div>
+        </div>
+        <div class="cont">
+            <img src="./images/2.jpg" alt="">
+        </div>
+        <div class="fk">
+            <p>Elegant Pink Dresses</p>
+            <span class="spp"><a href="#">$605.00</a></span>
+        </div>
+        <div class="des">
+            <span class="iconfont icon-iconjia spj"><a href="#">Description</a></span>
+        </div>
+        <div class="colo">
+            <span class="iconfont icon-raindrop  yd"><a href="#">Color</a></span>
+            <p class="p1">Choose a colour for item</p>
+            <ul class="ull">
+                <li class="l1"><span class="iconfont icon-duihao"></span></li>
+                <li class="l2"></li>
+                <li class="l3"></li>
+            </ul>
+            <p class="p2"></p>
+            <span class="iconfont icon-1 yfj"><a href="#">Size:</a></span>
+            <p class="p3">Size available for this item</p>
+            <ul class="ul5">
+                <li class="l1">6</li>
+                <li class="l2">8</li>
+                <li>10</li>
+                <li>12</li>
+                <li>14</li>
+            </ul>
+        </div>
+        <button class="aniu"><a href="#">Add to Cart</a></button>
+        <p class="shi">SHARE ON</p>
+        <p class="p4"></p>
+        <div class="foot">
+          <ul class="ung">
+             <li class="l1">
+                 <span class="iconfont icon-f"></span>
+             </li>
+             <li class="l2">
+                 <span class="iconfont icon-boke"></span>
+             </li>
+             <li class="l3">
+                 <span class="iconfont icon-f"></span>
+             </li>
+          </ul>
+          <img src="./images/dh.jpg" alt="" class="imm">
+          <img src="./images/dh2.jpg" alt="" class="imm2">
+          <img src="./images/dh3.jpg" alt="" class="imm3">
+        </div>
+        
+    </div>
+</body>
+</html>
